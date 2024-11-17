@@ -1,0 +1,1088 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Geist", serif;
+}
+
+html, body {
+    line-height: 1.4;
+    scroll-behavior: smooth;
+}
+  
+
+/* ===================================== header 2========================= */
+
+nav.navbar.navbar-expand-lg.bg-body-tertiary{
+    /* position: sticky; */
+    position: sticky;
+  top: 0;
+  /* overflow:auto; */
+}
+
+.bg-body-tertiary {
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 15vh;
+}
+
+
+
+/* -----------------nav bar setting start------------- */
+
+nav.navbar.navbar-expand-lg.bg-body-tertiary {
+    background-color: black !important;
+    padding: 10px;
+}
+
+.container-fluid .navbar-brand {
+    font-size: 25px;
+    color: white !important;
+    border-bottom: 2px solid #44a7f8;
+    margin-left: 10%;
+}
+
+div#navbarNavDropdown {
+    margin-left: 10%;
+}
+
+.navbar-nav li {
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+a.nav-link.active {
+    font-size: 15px;
+    text-decoration: none;
+    color: white !important;
+    border-bottom: 2px solid #eee;
+    border-radius: 5px;
+    padding: 10px 15px !important;
+    transition: 0.3s;
+}
+
+a.nav-link:hover {
+    color: #44bcd8;
+    transition: 0.4s;
+    box-shadow: 1px 1px 9px 2px #44bcd8;
+}
+
+
+/* ---------------- HEADER TWO  buttons sesttting ----------------*/
+
+.navbar-nav button h4 {
+    font-size: 17px;
+    padding-top: 2px;
+    color: white;
+    font-weight: 300;
+}
+
+.navbar-nav button a {
+    text-decoration: none;
+}
+
+.navbar-nav .btn {
+    border: none;
+    padding-left: 100px;
+}
+
+.navbar-nav button {
+    border-radius: 5px;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 10px;
+    margin-top: 5%;
+    border: 1px solid #eee;
+    background-color: #44bcd8;
+    font-weight: 100 !important;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: 0px;
+}
+
+.navbar-nav button:hover {
+    background-color: black;
+    color: white;
+    box-shadow: 5px 5px 5px #44bcd8;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+
+/* ======================= Section-1 seting start =================== */
+
+.section-1 {
+    display: inline-flex;
+    align-items: center;
+    text-align: left;
+    background-color: rgba(8, 8, 8, 0.932);
+    color: white;
+    width: 100%;
+    height: 100vh;
+    padding-top: 0%;
+}
+
+.section-1 img {
+    width: 80%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;    
+    margin-left: 4%;
+}
+
+.section-1 .image {
+    margin-bottom: 50px;
+    margin-left: 15%;
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #44bcd8;
+    border-radius: 5%;
+    transition: 0.4s;
+    width: 70%;
+}
+
+.section-1 .image:hover {
+    box-shadow: 1px 1px 9px 2px #44bcd8;
+    transition: 0.4s;
+}
+
+/* section-1 text-section setting start */
+
+.section-1 .text-section-1 {
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+.section-1 .text-section-1 h5 {
+    font-size: 25px;
+    font-weight: 300;
+    color: rgb(15, 229, 229);
+    padding-left: 40px;
+}
+
+.section-1 .text-section-1 h3 {
+    font-size: 45px;
+    letter-spacing: 5px;
+    padding-left: 40px;
+    font-weight: 300;
+}
+
+.section-1 .text-section-1 h3 span {
+    font-size: 35px;
+    letter-spacing: 2px;
+    color: #44bcd8;
+}
+
+.section-1 .text-section-1 p {
+    padding-left: 40px;
+    word-spacing: 5px;
+    font-size: 18px;
+}
+
+
+/* =================== Section-2 setting start====================*/
+
+.section-2 {
+    display: inline-flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(226, 226, 226);
+    padding-top: 50px;
+}
+
+
+.section-2 img {
+    width: 90%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;    
+    margin-left: 4%;
+}
+
+.section-2 .about-image {
+    margin-top: 5%;
+    margin-left: 5%;
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #44bcd8;
+    border-radius: 5%;
+    transition: 0.4s;
+    width: 25%;
+    border: 2px solid ;
+    background-color: rgba(8, 8, 8, 0.932);
+}
+
+.section-2 .about-image:hover {
+    box-shadow: 1px 1px 9px 2px #44bcd8;
+    transition: 0.4s;
+}
+
+
+/* section-2 about-text */
+
+.about-text {
+    padding-left: 50px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+
+.about-text h3 {
+    font-size: 35px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.about-text h3 span {
+    color: #44bcd8;
+}
+
+.about-text h5 {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.about-text p {
+    font-size: 18px;
+}
+
+/* icons setting */
+
+.about-text .icons{
+    margin-left: 30px;
+    font-size: 25px;
+}
+
+.about-text .icons a{
+    text-decoration: none;
+}
+
+.about-text .icons i {    
+    cursor: pointer;
+    background-color: #44bcd8;
+    color: black;
+    padding: 10px;
+    transition: 0.3s;
+    margin-left: 5px;
+}
+
+.about-text .icons i:hover {
+    background-color: black;
+    color: #44bcd8;
+    padding: 7px;
+    border-radius: 5px;
+    transition: 0.5s;
+    box-shadow: 1px 2px 2px black;
+}
+
+/* =================section-3 setting start================== */
+
+.section-3 {
+    width: 100%;
+    height: auto;
+    background-color: rgb(242, 242, 242);
+    padding-top: 10%;
+}
+
+.section-3 h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.section-3 h5 {
+    text-align: center;
+    font-weight: 300;
+    padding-top: 10px;
+    padding-bottom: 4%;
+}
+
+.services-section-3 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px 20px;
+    gap: 30px;
+}
+
+.services-section-3 .uper-section {
+    display: flex;
+    padding-bottom: 50px;
+    gap: 20px;
+}
+
+.services-section-3 .uper-section h4 {
+    padding-top: 20px;
+}
+
+.web-development {
+    background-color: white;
+    box-shadow: 1px 2px 5px black;
+    border-radius: 5px;
+    padding: 30px;    
+}
+
+.web-designe {
+    background-color: white;
+    box-shadow: 1px 2px 5px;
+    border-radius: 5px;
+    padding: 30px;    
+}
+.Landing-page {
+    background-color: white;
+    box-shadow: 1px 2px 5px black;
+    border-radius: 5px;
+    padding: 30px;    
+}
+
+.div-1 .icons {
+    margin-bottom: -15px;
+}
+
+.div-2 .icons {
+    margin-bottom: -15px;
+}
+.div-3 .icons {
+    margin-bottom: -15px;
+}
+
+.icons i {
+    font-size: 25px;
+    background-color: #44bcd8;
+    padding: 20px;
+    display: inline;
+    transition: 0.3s;
+} 
+
+.icons i:hover {
+    cursor: pointer;
+    background-color: black;
+    color: #44bcd8;
+    box-shadow: 2px 2px 9px #44bcd8;
+    transition: 0.4s;
+    padding: 20px;
+}
+
+.services-section h4 {
+    font-size: 25px;
+    padding: 10px;
+    padding-top: 8%;
+}
+
+.services-section p {
+    font-size: 17px;
+    word-spacing: 2px;
+    padding: 0 10px;
+}
+
+
+/* ================bottem-section setion setting start========== */
+
+.services-section-3 .bottem-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+
+.bottem-section .HTML {
+    border-radius: 100%;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 2px 0px rgba(90, 91, 95, 0.15);
+    transition: all 0.3s ease-in-out;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin: 0 auto;
+    /* margin-bottom: 30px; */
+} 
+
+.bottem-section .HTML:hover {
+    border-bottom-right-radius: 4px;
+    box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
+    top: -5px;
+}
+
+.bottem-section .CSS {
+    border-radius: 100%;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 2px 0px rgba(90, 91, 95, 0.15);
+    transition: all 0.3s ease-in-out;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+} 
+
+
+.bottem-section .CSS:hover {
+    border-bottom-right-radius: 4px;
+    box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
+    top: -5px;
+}
+
+.bottem-section .Bootstraps {
+    border-radius: 100%;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 2px 0px rgba(90, 91, 95, 0.15);
+    transition: all 0.3s ease-in-out;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+} 
+
+.bottem-section .Bootstraps:hover {
+    border-bottom-right-radius: 4px;
+    box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
+    top: -5px;
+}
+
+.bottem-section .HTML i {
+    display: inline-block;
+    margin-top: 88px;
+    font-size: 45px;
+    color: #f97400;
+}
+
+.bottem-section .CSS i {
+    display: inline-block;
+    margin-top: 88px;
+    font-size: 45px;
+    color: #2196F3;
+}
+
+.bottem-section .Bootstraps i {
+    display: inline-block;
+    margin-top: 88px;
+    font-size: 45px;
+    color: #4c0bce;
+}
+
+.services-section .bottem-section h3 {
+    padding-top: 10px;
+}
+
+
+/* ======================================= Section-4 setting start-================= */
+
+.section-4 {
+    width: 100%;
+    height: 100vh;
+    /* padding: 0px; */
+}
+
+.section-4 h1 {
+    padding-top: 10%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-4 p {
+    padding-top: 12px;
+    font-size: 20px;
+    margin-left: 7%;
+}
+.container {
+    width: 100%;
+    background-color: #ddd;
+  }
+  
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+  
+.html {
+    width: 98%; 
+    background-color: #2196F3;
+    margin-left: -15px;
+    text-align: center;
+}
+
+.css {
+    width: 80%; 
+    background-color: black;
+    margin-left: -15px;
+    text-align: center;
+}
+
+.Bootstrap {
+    width: 65%; 
+    background-color: #2196F3;
+    margin-left: -15px;
+    text-align: center;
+}
+
+/* ============================== Section=5 setting start------------------- */
+
+.section-5 {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    background-color: #ddd;
+    padding-top: 10%;
+    padding-bottom: 30px;
+}
+
+.section-5 h3 {
+    font-size: 35px;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+
+.section-5 h3 span {
+    color: #44bcd8;
+}
+
+.section-5 p {
+    font-size: 20px;
+    padding: 20px;
+}
+
+/* ============================ Section-5= portfolio-show setting=================*/
+
+
+.portfolio-show .uper-portfolio {
+    display: inline-flex;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.portfolio-show .uper-portfolio img {
+    width: 100%;
+    height: auto;
+}
+
+
+.portfolio-show .bottom-portfolio {
+    display: inline-flex;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.portfolio-show .bottom-portfolio img {
+    width: 100%;
+    height: auto;
+}
+
+.uper-portfolio .container .project-name a{
+    text-decoration: none;
+    color: black;
+}
+
+.uper-portfolio .container .project-name h3 {
+    font-weight: 400;
+    font-size: 30px;
+    text-align: left;
+}
+
+
+.bottom-portfolio .container .project-name a{
+    text-decoration: none;
+    color: black;
+}
+
+.bottom-portfolio .container .project-name h3 {
+    font-weight: 400;
+    font-size: 30px;
+    text-align: left;
+}
+
+
+
+
+/*  */
+/*  */
+/*  */
+
+.container {
+    position: relative;
+  }
+  
+  
+  .overlay {
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+    right: 0px;
+    background-color: rgba(30, 30, 30, 0.276);
+    overflow: hidden;
+    width: 95%;
+    height: 85%;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+  }
+  
+  .container:hover .overlay {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+  .icon {
+    cursor: pointer;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .icon i {
+    padding: 5px;
+    color: white;
+  }
+
+  .icon i:hover {
+    color: #2196F3;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+  }
+
+  /* ======================== footer section start========================= */
+
+  .footer {
+    height: 100vh;
+  }
+
+  .footer .text-section {
+    padding-top: 10%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text-section h4 {
+    font-size: 30px;
+    font-weight: 400;
+  } 
+
+  .text-section h4 span {
+    color: #2196F3;
+  }
+
+  .text-section p {
+    background-color: transparent !important;
+    font-size: 18px;
+    padding: 10px 250px;
+    line-height: 30px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+  }
+
+  /* =============== footer-icon========== */
+
+  .footer-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+    padding-top: 50px;
+  }
+
+  .footer-icon-1 i{
+    cursor: pointer;
+    font-size: 50px;
+    color: #2196F3;
+    background-color: black;
+    padding: 15px;
+    border-radius: 5px;
+    transition: 0.4s;
+  }
+
+  .footer-icon-1 i:hover {
+    box-shadow: 5px 5px 5px #2196F3;
+    transition: 0.4s;
+  }
+
+  .footer-icon-1 h4 {
+    font-size: 20px;
+    padding-top: 30px;
+  }
+
+  .footer-icon-1 h5 {
+    font-size: 20px;
+    padding-top: 10px;
+  }
+
+  /* ================= */
+
+  .footer-icon-2 i{
+    cursor: pointer;
+    font-size: 50px;
+    color: #2196F3;
+    background-color: black;
+    padding: 15px;
+    border-radius: 5px;
+    transition: 0.4s;
+  }
+
+  .footer-icon-2 i:hover {
+    box-shadow: 5px 5px 5px #2196F3;
+    transition: 0.4s;
+  }
+
+  .footer-icon-2 h4 {
+    font-size: 20px;
+    padding-top: 30px;
+  }
+
+  .footer-icon-2 h5 {
+    font-size: 20px;
+    padding-top: 10px;
+  }
+
+  /* ======================= */
+
+  .footer-icon-3 i{
+    cursor: pointer;
+    font-size: 50px;
+    color: #2196F3;
+    background-color: black;
+    padding: 15px;
+    border-radius: 5px;
+    transition: 0.4s;
+  }
+
+  .footer-icon-3 i:hover {
+    box-shadow: 5px 5px 5px #2196F3;
+    transition: 0.4s;
+  }
+
+  .footer-icon-3 h4 {
+    font-size: 20px;
+    padding-top: 30px;
+  }
+
+  .footer-icon-3 h5 {
+    font-size: 20px;
+    padding-top: 10px;
+  }
+
+  .footer .test-section-bottom {
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+
+  .footer .test-section-bottom p {
+    font-size: 20px;
+    height: 20vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    background-color: #44bdd8ea;
+  }
+
+
+
+
+  /*  mobile view setting */
+
+
+  /* ===================== Mobile media setting =================*/
+
+  /* // Small devices (landscape phones, 576px and up) */
+
+  @media (max-width: 576px) {
+
+    nav.navbar.navbar-expand-lg.bg-body-tertiary {
+        background-color: black !important;
+    }
+
+    div#navbarNavDropdown {
+        margin-left: 0% !important;
+    }
+
+
+    /* nav bar btn setting */
+    .navbar-nav .btn {
+        padding-left: 0 !important;
+    }
+
+    /* Section-1 setting */
+
+    .section-1 {
+        display: inline-block;
+        width: 100%;
+        height: auto;
+    }
+
+    .section-1 .image{
+        margin-left: 15%;
+        margin-top: 40px;
+    }
+
+
+    /* section-1 text-section setting start */
+
+    .section-1 .text-section-1 h5 {
+        padding-left: 30px;
+    }
+
+    .section-1 .text-section-1 h3 {
+        font-size: 35px;
+        padding-left: 30px;
+    }
+
+    .section-1 .text-section-1 p {
+        padding-left: 30px;
+    }
+
+    /* section-2 setting */
+
+    .section-2 {
+        display: inline-block !important;
+        height: auto !important;
+        padding-bottom: 50px;
+        padding-top: 100px !important;
+    }
+
+    /* section-2 img */
+
+    .section-2 img {
+        width: 80% !important;
+        margin: 0%;
+    }
+
+    .section-2 .about-image {
+        margin-left: 10% !important;
+        width: 80% !important;
+        margin-bottom: 10% !important;
+    }
+
+    /* section-2 about-text */
+
+    .about-text {
+        padding-left: 35px !important;
+        word-spacing: 1px;
+        letter-spacing: 1px;
+    }
+
+    .about-text p {
+        font-size: 15px !important;
+        padding-right: 30px;
+    }
+
+    /* icons setting */
+
+    .about-text .icons{
+        margin-left: 0px;
+        font-size: 25px;
+    }
+
+    /* =================section-3 setting start================== */
+
+    .section-3 {
+        padding-top: 100px !important;
+    }
+
+    .services-section-3 .uper-section {
+        display: block !important;
+        padding-top: 40px; 
+    }
+
+    .section-3 h5 {
+        padding: 0px 15px;
+    }
+
+    .div-2 {
+        margin-top: 25% !important;
+    }
+
+    .div-3 {
+        margin-top: 25% !important;
+    }
+
+    /* ================bottem-section setion setting start========== */
+
+    .services-section-3 .bottem-section {
+        display: block !important;
+    }
+
+    .bottem-section .HTML {
+        margin-bottom: 50px !important;
+        width: 250px !important;
+        height: 250px !important;
+     } 
+
+    .bottem-section .CSS {
+       margin-bottom: 50px !important;
+       width: 250px !important;
+       height: 250px !important;
+    }
+
+    .bottem-section .Bootstraps {
+       margin-bottom: 50px !important;
+       width: 250px !important;
+       height: 250px !important;
+    }
+
+    /* ======================================= Section-4 setting start-================= */
+
+    .section-4 {
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+        padding-top: 70px !important;
+        padding-left: 30px !important;
+    }
+
+    /* ============================== Section=5 setting start------------------- */
+
+    /* ============================ Section-5= portfolio-show setting=================*/
+
+    .section-5 {
+        padding-top: 100px !important;
+    }
+
+    .portfolio-show .uper-portfolio {
+        display: inline !important;
+    }
+
+    .portfolio-show .uper-portfolio img {
+        padding-bottom: 40px !important;
+    }
+    
+    .portfolio-show .bottom-portfolio {
+        display: inline !important;
+    }
+
+    .portfolio-show .bottom-portfolio img {
+        padding-bottom: 40px !important;
+    }
+
+    .overlay {
+        position: absolute;
+        bottom: 38px !important;
+        left: 10px;
+        right: 0px;
+        background-color: rgba(30, 30, 30, 0.276);
+        overflow: hidden;
+        width: 93% !important;
+        height: 170px !important;
+        -webkit-transform: scale(0);
+        -ms-transform: scale(0);
+        transform: scale(0);
+        -webkit-transition: .3s ease;
+        transition: .3s ease;
+      }
+
+
+      /* ======================== footer section start========================= */
+
+    .text-section p {
+        padding-top: 10px !important;
+        padding-left: 15px !important;
+        padding-right: 10px !important;
+        padding-bottom: 0 !important;
+    }
+
+      /* =============== footer-icon========== */
+
+    .footer {
+        padding-top: 70px !important;
+    }
+       
+    .footer-icon {
+        display: grid !important;
+    }
+
+    .footer .test-section-bottom p {
+        padding-top: 35px !important;
+    }
+    
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+  /* // Small devices (landscape phones, 576px and up) */
+
+
+@media (max-width: 900px) {
+    .navbar-toggler {
+        background-color: #44bcd8 !important;
+    }
+
+    .navbar-expand-lg .navbar-collapse {
+        margin-top: 10px;
+        padding:0px 10px;
+        background-color: #000000d1;
+    }
+
+    .navbar-expand-lg .navbar-collapse ul {
+        margin-top: -25px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .navbar-expand-lg .navbar-collapse ul li a {
+        border-bottom: none;
+    }
+
+}
+
+
+
+
+/* ============================ Go To Top BTN setting =========================*/
+
+#myBtn{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #2196F3;
+    color: white;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 50px;
+    transition: all 0.4s;
+  }
+
+  #myBtn:hover {
+    background-color: #44bcd8;
+    box-shadow: 1px 1px 5px black;
+    transition: all 0.4s;
+  }
